@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use GielisMeta-CST in your research, please cite the software and the accompanying article."
+title: "GielisMeta-CST: A MATLAB-Based Engineering Software Tool for Automated Design and Simulation of Gielis-Inspired Microstrip Electromagnetic Structures"
+type: software
+version: 1.0.0
+date-released: 2026-08-28
+license: BSD-3-Clause
+repository-code: "https://github.com/sebasvlld-creator/GielisMeta_CST"
+url: "https://github.com/sebasvlld-creator/GielisMeta_CST"
+authors:
+  - family-names: Montoya-Villada
+    given-names: Sebastian
+    email: sebastianmontoya@itm.edu.co
+    affiliation: Institucion Universitaria ITM
+  - family-names: Sierra-Gutierrez
+    given-names: Valentina
+    email: valentinasierra323595@correo.itm.edu.co
+    affiliation: Institucion Universitaria ITM
+  - family-names: Reyes-Vera
+    given-names: Erick
+    email: erickreyes@itm.edu.co
+    affiliation: Institucion Universitaria ITM
+keywords:
+  - Gielis geometry
+  - metamaterial resonator
+  - microwave sensor
+  - MATLAB
+  - CST Studio Suite
+  - design automation
+  - electromagnetic simulation

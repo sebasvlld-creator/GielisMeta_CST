@@ -1,0 +1,27 @@
+# MATLAB temporary and generated files
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+*.mex*
+
+# CST generated projects and results
+*.cst
+*.mod
+*.par
+*.log
+*.bak
+CST_MicrowaveStudio_Files/
+Simulation_*
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary folders
+tmp/
+temp/
