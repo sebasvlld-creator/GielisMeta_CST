@@ -21,18 +21,19 @@ The application provides a single graphical workflow for three operating modes:
 
 ```text
 GielisMeta-CST/
-|-- GielisMetaCST.mlapp        MATLAB App Designer application
-|-- CST_MicrowaveStudio.m      MATLAB-CST automation interface
-|-- macros/                    CST helper macros
+|-- src/
+|   |-- GielisMetaCST.mlapp    MATLAB App Designer application
+|   |-- CST_MicrowaveStudio.m  MATLAB-CST automation interface
+|   `-- macros/                CST helper macros
 |-- docs/                      User manual and publication text
-|-- examples/                  Guidance for reproducible examples
+|-- examples/                  Parameter files for the three illustrative examples
 |-- CITATION.cff               Machine-readable software citation
 |-- LICENSE                    BSD 3-Clause license
 |-- THIRD_PARTY_NOTICES.md     Third-party attribution
 `-- CHANGELOG.md               Release history
 ```
 
-The application, automation class, and `macros` directory must remain together in the repository root. The automation class resolves `macros` relative to its own location.
+The application, automation class, and `macros` directory must remain together under `src/`. The automation class resolves `macros` relative to its own location, so the three can be moved as a group but must not be separated.
 
 ## Requirements
 
@@ -59,7 +60,7 @@ Other recent versions may work, but have not been validated by the authors.
    addpath(genpath('path_to_GielisMeta-CST'))
    ```
 
-5. Open `GielisMetaCST.mlapp` in MATLAB App Designer and click **Run**.
+5. Open `src/GielisMetaCST.mlapp` in MATLAB App Designer and click **Run**.
 
 At the first CST connection, `CST_MicrowaveStudio.m` installs the required `.mcr` files into CST's `CST_App Macros` directory.
 
@@ -102,6 +103,10 @@ MATLAB is a product of The MathWorks, Inc. CST Studio Suite is a product of Dass
 - Sebastian Montoya-Villada - Institucion Universitaria ITM
 - Valentina Sierra-Gutierrez - Institucion Universitaria ITM
 - Erick Reyes-Vera - Institucion Universitaria ITM
+
+## Contact
+
+For questions about this software, contact sebastianmontoya@itm.edu.co.
 
 ## License
 
