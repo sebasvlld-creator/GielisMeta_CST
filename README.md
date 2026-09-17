@@ -1,5 +1,7 @@
 # GielisMeta-CST
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22819845.svg)](https://doi.org/10.5281/zenodo.22819845)
+
 GielisMeta-CST is a MATLAB App Designer tool for the automated design, construction, simulation, and postprocessing of Gielis-inspired microstrip electromagnetic structures in CST Studio Suite.
 
 The application provides a single graphical workflow for three operating modes:
@@ -88,9 +90,9 @@ See [`docs/GielisMeta-CST_User_Manual.pdf`](docs/GielisMeta-CST_User_Manual.pdf)
 
 If you use GielisMeta-CST in academic work, cite both the accompanying article and the software repository. GitHub can generate the software citation from [`CITATION.cff`](CITATION.cff).
 
-Until a journal DOI is assigned, use:
+Until a journal DOI is assigned for the article, use:
 
-> Montoya-Villada, S., Sierra-Gutierrez, V., & Reyes-Vera, E. (2026). *GielisMeta-CST: A MATLAB-Based Engineering Software Tool for Automated Design and Simulation of Gielis-Inspired Microstrip Electromagnetic Structures* (Version 1.0.0) [Computer software]. GitHub. https://github.com/sebasvlld-creator/GielisMeta_CST
+> Montoya-Villada, S., Sierra-Gutierrez, V., & Reyes-Vera, E. (2026). *GielisMeta-CST: A MATLAB-Based Engineering Software Tool for Automated Design and Simulation of Gielis-Inspired Microstrip Electromagnetic Structures* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22819845
 
 ## Third-party software
 

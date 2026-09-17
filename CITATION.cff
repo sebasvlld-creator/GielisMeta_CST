@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-08-28
 license: BSD-3-Clause
+doi: 10.5281/zenodo.22819845
 repository-code: "https://github.com/sebasvlld-creator/GielisMeta_CST"
 url: "https://github.com/sebasvlld-creator/GielisMeta_CST"
 authors:
