@@ -40,7 +40,7 @@ The application, automation class, and `macros` directory must remain together u
 ## Requirements
 
 - 64-bit Microsoft Windows. The MATLAB-CST link uses ActiveX/COM automation.
-- MATLAB with App Designer support.
+- MATLAB R2025a or later, with App Designer support.
 - CST Studio Suite with a valid license.
 
 The reference environment used for the accompanying manuscript and manual was:
